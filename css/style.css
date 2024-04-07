@@ -1,0 +1,137 @@
+/*General*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    outline: 1px solid red;
+}
+
+
+
+/* DESKTOP NAV */
+
+nav,
+.nav-links {
+    display: flex;
+
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 14vh;
+    padding-top: 0;
+    background-color: #2B2531;
+    /* nav height % */
+}
+
+/* Cards */
+#hero {
+    display: flex;
+    background-color: #2B2531;
+    justify-content: center;
+    padding: 4%;
+}
+
+.card1 {
+    background-image: url("../images/card1.png");
+    width: 20rem;
+    height: 17rem;
+    background-size: 100% 100%;
+    border-radius: 7%;
+    border-color: 30px solid white;
+}
+
+.card2 {
+    background-image: url("../images/card2.png");
+    width: 20rem;
+    height: 17rem;
+    background-size: 100% 100%;
+
+}
+
+.card3 {
+    background-image: url("../images/card3.png");
+    width: 20rem;
+    height: 17rem;
+    background-size: 100% 100%;
+
+}
+
+.card-body p {
+    color: aliceblue;
+    margin-top: 58%;
+    margin-left: 8%;
+    font-family: "Russo One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+/* leaderboard */
+
+#leaderboard h3 {
+    color: white;
+    justify-content: center;
+    margin-right: 50%;
+    font-family: "Russo One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#leaderboard {
+    background-color: #2B2531;
+    padding: 6.4%;
+    align-content: flex-start;
+}
+
+.playerboard {
+    display: flex;
+
+
+}
+
+#players {
+    font-family: "Russo One", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+}
+
+
+#players th {
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    border-bottom: 5px solid #aea8b4;
+    background-color: #2B2531;
+}
+
+#players td {
+    border: 1px solid #ddd;
+    border-bottom: 5px solid #aea8b4;
+    padding: 8px;
+    color: white;
+
+
+}
+
+
+#players tr:nth-child(even) {
+    background-color: #645F68;
+}
+
+#players tr:nth-child(odd) {
+    background-color: #6D6870;
+}
+
+#players tr:hover {
+    background-color: #ddd;
+}
