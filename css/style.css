@@ -6,9 +6,10 @@
     padding: 0;
 }
 
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
+
 
 
 
@@ -26,24 +27,132 @@ nav {
     height: 14vh;
     padding-top: 0;
     background-color: #2B2531;
+    border-bottom: 1px solid #aea8b4;
     /* nav height % */
 }
 
+/* second section */
+
+#second {
+    background-color: #2B2531;
+
+}
+
+.seperate-sections {
+    display: flex;
+    justify-content: center;
+    background-color: #2B2531;
+    padding: 3%;
+}
+
+.firstsection {
+    width: 500px;
+    height: 400px;
+    border: 1px solid #aea8b4;
+
+}
+
+.section {
+    display: flex;
+    color: white;
+    background-color: #2B2531;
+}
+
+.image {
+    margin-top: 15%;
+    margin-left: 19%;
+
+}
+
+.section h5 {
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-weight: 200;
+    font-size: large;
+    font-style: normal;
+    margin-top: 20%;
+    margin-left: 2%;
+}
+
+.button1 {
+    border: 1px solid #aea8b4;
+    background-color: #2B2531;
+    color: white;
+    padding: 6px 27px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+    border-radius: 7%;
+    margin-left: 32%;
+    margin-top: 5%;
+}
+
+.button2 {
+    border: 1px solid #aea8b4;
+    background-color: #2B2531;
+    color: white;
+    padding: 6px 27px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+    border-radius: 7%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.button1:hover {
+    background-color: #453b4f;
+    border: 2px solid #aea8b4;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #453b4f;
+    border: 2px solid #aea8b4;
+    color: white;
+}
+
+
+.second-section {
+    width: 502px;
+    height: 400px;
+    border: 1px solid #aea8b4;
+}
+
+
+
+
+
+
+
 /* Cards */
 #hero {
+    background-color: #2B2531;
+    padding: 4%;
+    justify-content: center;
+}
+
+.border {
     display: flex;
     background-color: #2B2531;
+    width: 70%;
     justify-content: center;
-    padding: 4%;
+    margin-left: 16%;
 }
+
+
+
 
 .card1 {
     background-image: url("../images/card1.png");
     width: 20rem;
     height: 17rem;
     background-size: 100% 100%;
-    border-radius: 7%;
-    border-color: 30px solid white;
+
 }
 
 .card2 {
@@ -92,46 +201,76 @@ nav {
 .playerboard {
     display: flex;
 
-
 }
 
 #players {
     font-family: "Russo One", sans-serif;
     font-weight: 10;
     font-style: normal;
-    border-collapse: collapse;
-    width: 100%;
     color: white;
+    justify-content: center;
+    border: 1px solid #aea8b4;
+    width: 100%;
 }
 
 
 #players th {
-
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     color: white;
-    border-bottom: 5px solid #aea8b4;
-    background-color: #2B2531;
+    border: 1px solid #aea8b4;
+    background-color: #302A35;
+    justify-content: center;
 }
 
 #players td {
-    border: 1px solid #ddd;
-    border-bottom: 5px solid #aea8b4;
+    border: 1px solid #aea8b4;
+    border-bottom: 10px solid #2C2731;
     padding: 8px;
     color: white;
-
-
 }
 
-
 #players tr:nth-child(even) {
-    background-color: #645F68;
+    background-color: #46414A;
 }
 
 #players tr:nth-child(odd) {
-    background-color: #6D6870;
+    background-color: #46414A;
 }
 
+
 #players tr:hover {
-    background-color: #ddd;
+    background-color: #5a555e;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #2B2531;
+    border-top: 1px solid #aea8b4;
+    ;
+}
+
+.logo1 {
+    margin-left: 38%;
+
+}
+
+.footeritems h5 {
+    font-family: "Russo One", sans-serif;
+    font-weight: 50;
+    font-size: small;
+    font-style: normal;
+    color: white;
+    margin-left: 35%;
+
+}
+
+.footeritems p {
+    font-family: "Russo One", sans-serif;
+    font-weight: 50;
+    font-size: xx-small;
+    font-style: normal;
+    color: white;
+    margin-left: 32%;
 }
